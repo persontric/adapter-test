@@ -1,0 +1,45 @@
+{
+	"name": "@persontric/adapter-test",
+	"version": "0.0.0",
+	"description": "Testing module for Persontric database adapters",
+	"keywords": [
+		"persontric",
+		"auth",
+		"authentication",
+		"adapter",
+		"test"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/persontric/adapter-test"
+	},
+	"author": "Brian Takita",
+	"license": "Apache-2.0",
+	"types": "index.ts",
+	"type": "module",
+	"exports": {
+		".": "./index.ts",
+		"./package.json": "./package.json"
+	},
+	"files": [
+		"*.md",
+		"*.d.ts",
+		"*.js",
+		"*.json",
+		"persontric"
+	],
+	"scripts": {
+		"build": "shx rm -rf ./dist/* && tsc",
+		"auri.build": "pnpm build"
+	},
+	"dependencies": {
+		"uvu": "^0.5.6",
+		"oslo": "1.1.2"
+	},
+	"devDependencies": {
+		"persontric": "workspace:*"
+	},
+	"peerDependencies": {
+		"persontric": "^0.0.0"
+	}
+}
