@@ -34,7 +34,7 @@
 	},
 	"dependencies": {
 		"uvu": "^0.5.6",
-		"oslo": "1.2.0"
+		"oslo": "1.2.1"
 	},
 	"devDependencies": {
 		"persontric": "workspace:*"
